@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Athiti" />
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"> </script>
+    <script src="index.js"></script>
+
+<body>
+
+    <main>
+
+        <div class="container">
+            <div class="inner-container">
+                <div class="left-block">
+                    <div class="from"   id="form"  >
+                        <div class="logo">
+                            <img src="assets/ZG icon.png" />
+                        </div>
+                        <h1 class="Heading">Create Account</h1>
+                        <div class="fieldbox">
+                            <input type="text" placeholder="Full name *" class="fieldinput" id="fullname" required />
+                            <span id="name_error" class="error"></span>
+                        </div>
+                        <div class="fieldbox">
+                            <input type="email" placeholder="Email *" class="fieldinput"  id="email" required />
+                            <span id="email_error" class="error"></span>
+                        </div>
+                        
+                        <div class="fieldbox" style="position: relative;">
+                            <div class="phonecontainer">
+                                <div class="flag" id="flag">
+                                    <span class="iconify" data-icon="flag:gb-4x3"></span>
+                                    <!-- <img src="assets/chevron-down 1.png"> -->
+                                </div>
+                                
+                                <input type="tel" name="tel" placeholder="Phone Number *" class="fieldinput" id="number" required>
+                                <span id="num_error" class="error"></span>
+                                <div class="options" id="flagOptions">
+                                    <ol>
+                                        <li class="option" data-code="gb">
+                                            <span class="iconify" data-icon="flag:gb-4x3"></span> UK
+                                            
+                                        </li>
+                                        <li class="option" data-code="in">
+                                            <span class="iconify" data-icon="flag:in-4x3"></span> India
+                                        </li>
+                                        <li class="option" data-code="au">
+                                            <span class="iconify" data-icon="flag:au-4x3"></span> Australia
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                          
+                        <div class="fieldbox password-container ">
+                            <input type="password" placeholder="Password *" class="fieldinput" id="password" required />
+                            <img src="assets/Group 1.png" id="showimg" class="show-icon" >
+                            <span id="password_error" class="error"></span>
+                        </div>
+                        <div class="fieldbox password-container">
+                            <input type="password" placeholder="Confrim Password *" class="fieldinput" id="Confrimpassword" required />
+                            <img src="assets/Group 1.png" id="showimg2" class="show-icon" >
+                            <span id="confrimpass_error" class="error"></span>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" class="box" id="box" required >
+                            <span class="term">I agree to the <span style="color: white; cursor: pointer;">Terms</span> of <span
+                                    style="color: white; cursor: pointer;">Service and Privacy Policy</span></span>
+                                    <span id="check_error" class="error"></span>
+                        </div>
+                        <div class="createbox">
+                            <button type="submit" class="createbtn" >Create</button>
+                        </div>
+                        <div class="line">
+                            <hr>
+                            <span class="or">Or</span>
+                            <hr>
+                        </div>
+                        <a class="signupbox">
+                            <img src="assets/Google icon.png" class="Googlelogo"> <span class="signtext">Sign up with
+                                Google</span>
+                        </a>
+
+                        <div class="loginbox">
+                            <span class="logintxt">Already a member ?</span><a class="loginbtn">Login</a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="right-block">
+                    <img src="assets/poster-8571685_640.jpg" class="img">
+                </div>
+            </div>
+        </div>
+<!-- <script>
+ 
+ var fullname = document.getElementById("fullname");
+var email = document.getElementById("email");
+var phonenumber = document.getElementById("number");
+var password = document.getElementById("password");
+var confrimpassword = document.getElementById("Confrimpassword");
+function data() {
+    console.log("call");
+    
+    if (fullname==""||email==""||phonenumber==""||password==""||confrimpassword=="") {
+       
+    console.log("ok");
+    
+    alert("fill information")
+    }
+}
+
+</script> -->
+    </main>
+</body>
+
+</html>

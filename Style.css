@@ -1,0 +1,305 @@
+body {
+    background: linear-gradient(to bottom, #9568e1, #5aa4c9);
+    margin: 0;
+    height: 100vh;
+}
+
+main {
+    margin: 17px;
+
+    font-family: Athiti, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 908px;
+    height: auto;
+    margin: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag {
+    display: inline;
+    vertical-align: middle;
+    padding-left: 16px;
+    position: absolute;
+    top: 25%;
+    margin: 0;
+}
+
+#number {
+    padding-left: 63px;
+
+}
+
+.left-block {
+    width: 50%;
+}
+
+.right-block {
+    width: 50%;
+}
+
+.from {
+    max-width: 329px;
+}
+
+.logo {
+    width: 48px;
+    padding-top: 69px;
+}
+
+.inner-container {
+    display: flex;
+
+}
+
+.Heading {
+    margin-top: 22.55px;
+    margin-bottom: 25px;
+    color: white;
+
+    font-size: 29px;
+    font-weight: 900;
+
+}
+
+.fieldbox {
+    width: 329px;
+    /* width: 100%;
+    border: white solid 1px;
+    background-color: transparent; */
+    margin-bottom: 19px;
+    /* padding: 11.7px; */
+    /* box-sizing: border-box; */
+}
+
+.fieldinput {
+    width: 100%;
+    border: white solid 1px;
+    border-radius: 4px;
+    background-color: transparent;
+    
+
+    padding: 11.7px;
+    box-sizing: border-box;
+
+}
+::placeholder{
+    font-family: Athiti, sans-serif;
+    font-size: 14px;
+    color: rgba(50, 50, 50,0.50);
+    font-weight:500;
+}
+.fieldinput:focus-visible {
+    outline: none;
+}
+
+.checkbox {
+    margin-top: 23px;
+    accent-color: gray;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: normal;
+    display: inline;
+
+}
+
+.box {
+    background-color: white;
+    width: 17.74px;
+    height: 17.74px;
+    display: inline-block;
+    vertical-align: middle;
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    border: rgba(11, 70, 84, 0.24) solid 2px;
+    border-radius: 2.96px;
+    box-sizing: border-box;
+}
+
+.box::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: url(assets/vector.png);
+    color: blue;
+    width: 9px;
+    height: 7px;
+    display: none;
+}
+
+.box:checked {
+    background-color: white;
+    justify-items: center;
+}
+
+.box:checked::after {
+    display: block;
+}
+
+.term {
+    margin-left: 8.26px;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Athiti, sans-serif;
+    font-size: 14px;
+}
+
+.createbtn {
+    margin-top: 24px;
+    margin-bottom: 0px;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 17px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 100%;
+    font-family: Athiti, sans-serif;
+    border: 0px;
+    cursor: pointer;
+}
+
+.signupbox {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    border: white solid 2px;
+
+    border-radius: 30px;
+    padding: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.signtext {
+    padding-left: 3px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Athiti, sans-serif;
+}
+
+.Googlelogo {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    /* background-color: white;
+    border: 2px solid white; */
+    border-radius: 100%;
+}
+
+.loginbox {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Athiti, sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.loginbtn {
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: transparent;
+    display: inline;
+    font-size: 14px;
+    font-family: Athiti, sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.img {
+    padding-top: 78px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 22px;
+    color: white;
+    font-size: 14px;
+
+    margin-bottom: 21px;
+}
+
+.line hr {
+    flex-grow: 1;
+    padding: 0px;
+    border-top: 1px solid white;
+}
+
+.or {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 14px;
+    font-family: Athiti, sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.show-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+
+.password-container {
+    position: relative;
+    width: 329px;
+    /* height: 40px; */
+    margin-bottom: 20px;
+}
+.error {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    margin-top: 4px;
+    display: block;
+}
+.logintxt{
+    display: inline-block;
+    vertical-align: middle;
+}
+.options {
+    position: absolute;
+    top: 30px; /* Adjust the dropdown position */
+    left: 0;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: none; /* Hide by default */
+    z-index: 10; /* Ensure the dropdown appears on top */
+    width: 100%;
+}
+
+.options.active {
+    display: block; /* Show when the flag is clicked */
+}
+
+.option {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}
+
+.flag::after{
+    content: url(assets/chevron-down\ 1.png);
+}
